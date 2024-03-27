@@ -16,7 +16,7 @@ Anyone who introduces a
 paying customer, is listed
 with the customer as their
 agent. Agents get 50% of
-all their customer's
+all their customers'
 contributions as commision.
 
 If agent A introduces 
@@ -24,7 +24,7 @@ agent B to the scheme,
 then agent A is listed as
 the sponsor of agent B.
 Agent B also gets 50% of 
-all their own customer's
+all their own customers'
 contributions as all agents
 do. Agent A gets 10% of 
 the contributions of all
