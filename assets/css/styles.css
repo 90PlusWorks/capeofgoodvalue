@@ -100,7 +100,7 @@ body.dark footer {
 
 nav {
   background: #fff;
-  position: sticky;
+  /*position: sticky;*/
   top: 0;
   left: 0;
   z-index: 1;
