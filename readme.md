@@ -23,5 +23,17 @@ If agent A introduces
 agent B to the scheme,
 then agent A is listed as
 the sponsor of agent B.
-Agent B also gets 50%
+Agent B also gets 50% of 
+all their own customer's
+contributions as all agents
+do. Agent A gets 10% of 
+the contributions of all
+their sponsored agents.
+
+When agent B introduces 
+agent C, the same applies.
+Agent A does not get any
+portion of the income of 
+agent C, but B gets 10% 
+of C's contributions.
 
