@@ -80,8 +80,13 @@
             title="search.gif"
           />
         </a>...<br>
-      <input placeholder="police" value="police"type="text" id="search">
-<input type="button" value="Search Services or Scroll Down" onclick="search(document.getElementById('search').value)"><br></h3>
+
+<label for="searchbox">Search</label>
+<input 
+  type="search" 
+  id="searchbox" 
+>
+
 <div style = "border: 3px solid var(--primary-color); border-radius: 0.6rem;">
 <h3 class="hear">
         Our <b>Cape of Good Hope</b> need support for the <b>Cape of Good Causes </b><small>&#9400;</small><br></h3>
@@ -149,7 +154,7 @@
         </a>
         </div>
         </div><br>
-<div style = "border: 3px solid var(--primary-color); border-radius: 0.6rem;">
+<div style = "border: 3px solid var(--primary-color); border-radius: 0.6rem;" class="cards">
 <h3 class="hear">
         <b>Platinum Members:</b>
       <br></h3>
@@ -189,7 +194,7 @@
         </a>
         </div>
         </div><br>
-<div style = "border: 3px solid var(--primary-color); border-radius: 0.6rem;">
+<div style = "border: 3px solid var(--primary-color); border-radius: 0.6rem;" class="cards">
 <h3 class="hear">
         <b>Premium Members:</b>
       <br></h3>
@@ -233,10 +238,13 @@
     <div class="row">
   <div class="column" style="background-color:#eef;">
     <h2>Emergency Numbers</h2>
-    Police Flying Squad	<b>10111</b><br>
+    <div class="cards">
+Police Flying Squad	<b>10111</b><br>
 Ambulance	<b>10177</b><br>
 City of Cape Town General Emergency	<b>107</b><br>
 Cell Phone Emergency	<b>112</b> (MTN, Vodacom, Cell C and Telkom)<br>
+Crime Stop	<b>0860 010 111</b><br>
+Missing Persons	<b>021 918 3512/3449/3452</b></div><div class="cards">
 <H2>Fire Departments:<br></H2>
 City of Cape Town phone:<b>021 480 7700</b><br>
 Overberg <b>028 425 1690</b><br>
@@ -244,32 +252,33 @@ West Coast <b>022 433 8700</b><br>
 Eden <b>044 805 5071</b><br>
 Central Karoo <b>023 414 2603</b><br>
 Cape Winelands <b>021 887 4446</b><br><br>
-Disaster Centre	<b>080 911 HELP (4357)</b><br>
-Lifeline	<b>021 461 1113</b><br>
-Poisons 	<b>0861 555 777</b><br>
-Childline	<b>116</b><br>
+Disaster Centre	<b>080 911 HELP (4357)</b></div><div class="cards">
+Lifeline	<b>021 461 1113</b></div><div class="cards">
+Poisons 	<b>0861 555 777</b></div><div class="cards">
+Childline	<b>116</b></div><div class="cards">
 <H2>Sea Rescue<br></H2>	 
 Cape Town <b>021 449 3500</b><br>
 Saldahna <b>022 714 1726</b><br>
 Mossel Bay<b>044 604 6271</b><br>
 Sea Rescue Institute (NSRI)	<b>087 094 9774</b><br>
-Wilderness Search & Rescue	<b>021 937 0300</b><br><br>
-Cape Town Electricity	<b>0860 103 089</b><br>
-Cape Town Water 	<b>0860 103 089</b><br><br>
-Safe Schools <b>0800 454 647</b><br>
-Crime Stop	<b>0860 010 111</b><br>
-Missing Persons	<b>021 918 3512/3449/3452</b><br>
-Animal Welfare	<b>021 534 6426</b><br>
-SASSA Helpline	<b>0800 601 011</b><br><br>
+Wilderness Search & Rescue	<b>021 937 0300</b></div><div class="cards">
+Cape Town Electricity	<b>0860 103 089</b></div><div class="cards">
+Cape Town Water 	<b>0860 103 089</b></div><div class="cards"></div><div class="cards">
+Safe Schools <b>0800 454 647</b></div><div class="cards">
+Animal Welfare	<b>021 534 6426</b></div><div class="cards">
+SASSA Helpline	<b>0800 601 011</b></div><br><br>
 <H2>Listed Business name</H2>
 
   </div>
   <div class="column" style="background-color:#ff9;">
         <h2>Emergency Numbers</h2>
-    Police Flying Squad	<b>10111</b><br>
+    <div class="cards">
+Police Flying Squad	<b>10111</b><br>
 Ambulance	<b>10177</b><br>
 City of Cape Town General Emergency	<b>107</b><br>
 Cell Phone Emergency	<b>112</b> (MTN, Vodacom, Cell C and Telkom)<br>
+Crime Stop	<b>0860 010 111</b><br>
+Missing Persons	<b>021 918 3512/3449/3452</b></div><div class="cards">
 <H2>Fire Departments:<br></H2>
 City of Cape Town phone:<b>021 480 7700</b><br>
 Overberg <b>028 425 1690</b><br>
@@ -277,30 +286,159 @@ West Coast <b>022 433 8700</b><br>
 Eden <b>044 805 5071</b><br>
 Central Karoo <b>023 414 2603</b><br>
 Cape Winelands <b>021 887 4446</b><br><br>
-Disaster Centre	<b>080 911 HELP (4357)</b><br>
-Lifeline	<b>021 461 1113</b><br>
-Poisons 	<b>0861 555 777</b><br>
-Childline	<b>116</b><br>
+Disaster Centre	<b>080 911 HELP (4357)</b></div><div class="cards">
+Lifeline	<b>021 461 1113</b></div><div class="cards">
+Poisons 	<b>0861 555 777</b></div><div class="cards">
+Childline	<b>116</b></div><div class="cards">
 <H2>Sea Rescue<br></H2>	 
 Cape Town <b>021 449 3500</b><br>
 Saldahna <b>022 714 1726</b><br>
 Mossel Bay<b>044 604 6271</b><br>
 Sea Rescue Institute (NSRI)	<b>087 094 9774</b><br>
-Wilderness Search & Rescue	<b>021 937 0300</b><br><br>
-Cape Town Electricity	<b>0860 103 089</b><br>
-Cape Town Water 	<b>0860 103 089</b><br><br>
-Safe Schools <b>0800 454 647</b><br>
-Crime Stop	<b>0860 010 111</b><br>
-Missing Persons	<b>021 918 3512/3449/3452</b><br>
-Animal Welfare	<b>021 534 6426</b><br>
-SASSA Helpline	<b>0800 601 011</b><br><br>
+Wilderness Search & Rescue	<b>021 937 0300</b></div><div class="cards">
+Cape Town Electricity	<b>0860 103 089</b></div><div class="cards">
+Cape Town Water 	<b>0860 103 089</b></div><div class="cards"></div><div class="cards">
+Safe Schools <b>0800 454 647</b></div><div class="cards">
+Animal Welfare	<b>021 534 6426</b></div><div class="cards">
+SASSA Helpline	<b>0800 601 011</b></div><br><br>
 <H2>Business type</H2>
-Accounting Bookkeeping<br>Advertising Services<br>Appraisal Services<br>Architechs<br>Backup Restore<br>Branding Services<br><b>Builders, Building Contractors</b><br>Business Banking<br>Business Consulting<br>Business Continuity<br>Disaster Recovery<br>Business Financing<br>Business Insurance<br>Business Process<br>Outsourcing<br>Business Software Services<br>Catering<br>Cleaning<br>Janitorial Services<br>Cloud Computing<br>Co-Working Spaces<br>Commercial Printing<br>Compliance Services<br>Conferences<br>Industry Events<br>Construction Services<br>Contracts<br>Manufacturing<br>Couriers<br>Delivery<br>Customer Support Services<br>Customs Brokers<br>Cybersecurity Services<br><b>Data Analysis & Analytics<br>90PlusWorks 0825639512</b><br>Data Center Services<br>Data Services<br>Debt Collection<br>Derivatives<br>Hedging Services<br>Design Services<br>Distribution Services<br>Document Management Services<br><b>Electricians</b><br>Employee Assistance Programs<br>Employee Benefits<br>Employee Wellness<br>Programs<br>Engineering Services<br>Environmental Remediation<br>Event Planning<br>Management<br>Facilities Management<br>Financial Auditing<br>Foreign Exchange<br>Fulfillment Services<br>Health, Safety Services<br>IT Consulting<br>IT Support Services<br>Import Export Services<br>Industry Analysis<br><b>Insurance</b><br>Intelligence<br>Industry Standards<br>Compliance<br>Infrastructure Services<br>Inspection Services<br>Intellectual Property Services<br>Interior Design<br>Planning<br>Inventory Tracking Services<br>Lab Services<br>Land Development Services<br>Landscaping<br>Groundskeeping<br>Legal Services<br>Licensing Royalties<br>Administration<br>Logistics Services<br>Maintenance Services<br><b>Management Consulting<br>90PlusWorks 0825639512</b><br>Market Research<br>Marketing Services<br>Media Production Services<br>Mergers and Acquisitions<br>Space<br>Packaging Services<br><b>Painting and Painters<br>Stellenbosch Painters <i>& Projects</i> 021 204 4813</b><br>Patent Consulting<br>Payment Services<br>Payroll Processing<br>Plumbers and Plumbing<br>Project Financing<br>Project Management<br>Property Management<br>Public Relations<br><b>Quality Control Services<br>90PlusWorks 0825639512</b><br>Real Estate Brokers<br>Recruiters<br>Recycling Services<br>Renewable Energy Solutions<br>Renovation Services<br>Repair Services<br>Retirement Plans<br>Risk Management Services<br>Sales Outsourcing<br>Security Services<br>Shipping Services<br>Social Media Management<br><b>Software Development<br>90PlusWorks 0825639512</b><br>Staffing Services<br>Systems Integration<br>Tax Services<br>Telecom Services<br>Testing Services<br>Trade Show<br>Training Services<br>Translation<br>Warehousing Services<br>Waste Management<br><b>Web Development<br>90PlusWorks 0825639512</b><br>
+<div class="cards">
+Accounting Bookkeeping</div><div class="cards">
+Advertising Services</div><div class="cards">
+Appraisal Services</div><div class="cards">
+Architechs</div><div class="cards">
+Backup Restore</div><div class="cards">
+Branding Services</div><div class="cards">
+<b>Builders, Building Contractors</b></div><div class="cards">
+Business Banking</div><div class="cards">
+Business Consulting</div><div class="cards">
+Business Continuity</div><div class="cards">
+Disaster Recovery</div><div class="cards">
+Business Financing</div><div class="cards">
+Business Insurance</div><div class="cards">
+Business Process</div><div class="cards">
+Outsourcing</div><div class="cards">
+Business Software Services</div><div class="cards">
+Catering</div><div class="cards">
+Cleaning</div><div class="cards">
+Janitorial Services</div><div class="cards">
+Cloud Computing</div><div class="cards">
+Co-Working Spaces</div><div class="cards">
+Commercial Printing</div><div class="cards">
+Compliance Services</div><div class="cards">
+Conferences</div><div class="cards">
+Industry Events</div><div class="cards">
+Construction Services</div><div class="cards">
+Contracts</div><div class="cards">
+Manufacturing</div><div class="cards">
+Couriers</div><div class="cards">
+Delivery</div><div class="cards">
+Customer Support Services</div><div class="cards">
+Customs Brokers</div><div class="cards">
+Cybersecurity Services</div><div class="cards">
+<b>Data Analysis & Analytics<br>
+90PlusWorks 0825639512</b></div><div class="cards">
+Data Center Services</div><div class="cards">
+Data Services</div><div class="cards">
+Debt Collection</div><div class="cards">
+Derivatives</div><div class="cards">
+Hedging Services</div><div class="cards">
+Design Services</div><div class="cards">
+Distribution Services</div><div class="cards">
+Document Management Services</div><div class="cards">
+<b>Electricians</b></div><div class="cards">
+Employee Assistance Programs</div><div class="cards">
+Employee Benefits</div><div class="cards">
+Employee Wellness</div><div class="cards">
+Programs</div><div class="cards">
+Engineering Services</div><div class="cards">
+Environmental Remediation</div><div class="cards">
+Event Planning</div><div class="cards">
+Management</div><div class="cards">
+Facilities Management</div><div class="cards">
+Financial Auditing</div><div class="cards">
+Foreign Exchange</div><div class="cards">
+Fulfillment Services</div><div class="cards">
+Health, Safety Services</div><div class="cards">
+IT Consulting</div><div class="cards">
+IT Support Services</div><div class="cards">
+Import Export Services</div><div class="cards">
+Industry Analysis</div><div class="cards">
+<b>Insurance</b></div><div class="cards">
+Intelligence</div><div class="cards">
+Industry Standards</div><div class="cards">
+Compliance</div><div class="cards">
+Infrastructure Services</div><div class="cards">
+Inspection Services</div><div class="cards">
+Intellectual Property Services</div><div class="cards">
+Interior Design</div><div class="cards">
+Planning</div><div class="cards">
+Inventory Tracking Services</div><div class="cards">
+Lab Services</div><div class="cards">
+Land Development Services</div><div class="cards">
+Landscaping</div><div class="cards">
+Groundskeeping</div><div class="cards">
+Legal Services</div><div class="cards">
+Licensing Royalties</div><div class="cards">
+Administration</div><div class="cards">
+Logistics Services</div><div class="cards">
+Maintenance Services</div><div class="cards">
+<b>Management Consulting<br>
+90PlusWorks 0825639512</b></div><div class="cards">
+Market Research</div><div class="cards">
+Marketing Services</div><div class="cards">
+Media Production Services</div><div class="cards">
+Mergers and Acquisitions</div><div class="cards">
+Space</div><div class="cards">
+Packaging Services</div><div class="cards">
+<b>Painting and Painters<br>
+Stellenbosch Painters <i>& Projects</i> 021 204 4813</b></div><div class="cards">
+Patent Consulting</div><div class="cards">
+Payment Services</div><div class="cards">
+Payroll Processing</div><div class="cards">
+Plumbers and Plumbing</div><div class="cards">
+Project Financing</div><div class="cards">
+Project Management</div><div class="cards">
+Property Management</div><div class="cards">
+Public Relations</div><div class="cards">
+<b>Quality Control Services</div><div class="cards">
+90PlusWorks 0825639512</b></div><div class="cards">
+Real Estate Brokers</div><div class="cards">
+Recruiters</div><div class="cards">
+Recycling Services</div><div class="cards">
+Renewable Energy Solutions</div><div class="cards">
+Renovation Services</div><div class="cards">
+Repair Services</div><div class="cards">
+Retirement Plans</div><div class="cards">
+Risk Management Services</div><div class="cards">
+Sales Outsourcing</div><div class="cards">
+Security Services</div><div class="cards">
+Shipping Services</div><div class="cards">
+Social Media Management</div><div class="cards">
+<b>Software Development<br>
+90PlusWorks 0825639512</b></div><div class="cards">
+Staffing Services</div><div class="cards">
+Systems Integration</div><div class="cards">
+Tax Services</div><div class="cards">
+Telecom Services</div><div class="cards">
+Testing Services</div><div class="cards">
+Trade Show</div><div class="cards">
+Training Services</div><div class="cards">
+Translation</div><div class="cards">
+Warehousing Services</div><div class="cards">
+Waste Management</div><div class="cards">
+<b>Web Development<br>
+90PlusWorks 0825639512</b></div><br><br>
+
 
   </div>
-</div>
-
-  
+</div><br><br>
+<label for="searchbox">Search</label>
+<input 
+  type="search" 
+  id="searchbox2" 
+>
+  <div>
     <section class="sub" id="sub">
       <h3>List your business</h3>
       <form action="https://forms.gle/JBgMHREXpJrKkaSeA">
@@ -311,8 +449,9 @@ Accounting Bookkeeping<br>Advertising Services<br>Appraisal Services<br>Architec
           class="submit-btn"
         />
       </form>
-    </section>
-
+    </section><br>
+</div>
+<div>
     <!-- Social icons -->
     <section class="social">
       <h3>Connect with us on Social Media</h3>
@@ -320,9 +459,9 @@ Accounting Bookkeeping<br>Advertising Services<br>Appraisal Services<br>Architec
         <a  href="https://www.facebook.com/CapeofGoodValue"><img src="assets/icons/logo-x.png">  </a>
         <a href="https://www.facebook.com/CapeofGoodValue"><img src="assets/icons/logo-facebook.png">  </ion-icon> </a>
       </div>
-    </section>
+    </section><br></div>
 
-    <footer>&copy;2024. All Rights Reserverd</footer>
+    <footer>&copy;2024. All Rights Reserved</footer>
 
     <!-- Scroll to top button -->
     <i class="scroll-up" id="scroll-up"
@@ -345,7 +484,50 @@ Accounting Bookkeeping<br>Advertising Services<br>Appraisal Services<br>Architec
     <!-- Simple lightbox -->
     <script src="assets/js/simple-lightbox.min.js"></script>
     <script>
-    function search(string){window.find(string);}
+let cards = document.querySelectorAll('.cards')
+    
+function liveSearch() {
+    let search_query = document.getElementById("searchbox").value;
+    //Use innerText if all contents are visible
+    //Use textContent for including hidden elements
+    for (var i = 0; i < cards.length; i++) {
+        if(cards[i].textContent.toLowerCase()
+                .includes(search_query.toLowerCase())) {
+            cards[i].classList.remove("is-hidden");
+        } else {
+            cards[i].classList.add("is-hidden");
+        }
+    }
+}
+function liveSearch2() {
+    let search_query = document.getElementById("searchbox2").value;
+    //Use innerText if all contents are visible
+    //Use textContent for including hidden elements
+    for (var i = 0; i < cards.length; i++) {
+        if(cards[i].textContent.toLowerCase()
+                .includes(search_query.toLowerCase())) {
+            cards[i].classList.remove("is-hidden");
+        } else {
+            cards[i].classList.add("is-hidden");
+        }
+    }
+}
+
+//A little delay
+let typingTimer;               
+let typeInterval = 500;  
+let searchInput = document.getElementById('searchbox');
+let searchInput2 = document.getElementById("searchbox2");
+
+searchInput.addEventListener('keyup', () => {
+    clearTimeout(typingTimer);
+    typingTimer = setTimeout(liveSearch, typeInterval);
+});
+searchInput2.addEventListener('keyup', () => {
+    clearTimeout(typingTimer);
+    typingTimer = setTimeout(liveSearch2, typeInterval);
+});
+
       var lightbox = new SimpleLightbox(".stars-gallery a");
     </script>
   </body>
