@@ -4,8 +4,10 @@ members.
 
 You can become a member 
 if you are a non-profit 
-who do something good for 
-the world.
+who do something good 
+for the world.
+
+https://90plusworks.github.io/capeofgoodvalue/
 
 Web page is funded by a 
 service directory, listing
