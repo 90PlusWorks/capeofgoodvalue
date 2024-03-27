@@ -37,3 +37,31 @@ portion of the income of
 agent C, but B gets 10% 
 of C's contributions.
 
+Once a client stops 
+paying their listing fee,
+their listing is suspended
+and if they start paying
+again within 6 months,
+their agent stays the same.
+
+After 6 months, a client
+must sign up again as a new
+client, and the introducing
+agent will be listed as
+their sponsor.
+
+Clients who pay their listing
+fees for 5 years without 
+missing more than 6 months,
+get a permanent 50% 
+discount from the start of
+year 6. This reduces their
+contributions and their
+agent payouts which remains
+at 50% of their clients'
+contributions and 10% of 
+sponsored agents clients'
+contributions.
+
+Listing fees will be 
+revised yearly on 1 January.
