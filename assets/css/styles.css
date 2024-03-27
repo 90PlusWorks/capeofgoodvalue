@@ -333,7 +333,7 @@ iframe {
 .stakeholders img {
   border-radius: 0.6rem;
 }
-
+.is-hidden { display: none; }
 .persons {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
